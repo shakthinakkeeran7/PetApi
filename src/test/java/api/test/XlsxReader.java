@@ -111,7 +111,7 @@ public class XlsxReader {
 		
 		
 	ResourceBundle resourceBundle =  ResourceBundle.getBundle("routes");
-	String string1 = resourceBundle.getString("base_url");
+	String string1 = resourceBundle.getString("base_url"); 
 	
 	System.out.println(string1);
 	
@@ -125,7 +125,7 @@ public class XlsxReader {
 	String propertyData = pro.getProperty("base_url");
 	
 	System.out.println(propertyData);
-	logger.info("-----------------create  is-----user-----------------------");
+	logger.info("-----------------create  is-----user------------------------");
 		
 	}
 }
